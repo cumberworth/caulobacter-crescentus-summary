@@ -1,0 +1,62 @@
+\geometry{verbose,a4paper,tmargin=3.0cm,bmargin=3.0cm,hmargin={3.5cm,3.5cm},headheight=14.5pt}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Adventor}
+%\setsansfont{Futura LT}
+\setmathfont{TeX Gyre Pagella Math}
+
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\floatpagefraction}{0.9}
+\setcounter{topnumber}{1}
+\setcounter{bottomnumber}{1}
+\setcounter{totalnumber}{2}
+
+\tocloftpagestyle{plain}
+%\renewcommand{\cftdotsep}{\cftnodots}
+%\renewcommand{\cftpnumalign}{r}
+%\renewcommand{\cftchapfont}{}
+%\renewcommand{\cftchappagefont}{}
+%\renewcommand{\cftsecleader}{}
+%\renewcommand{\cftsecafterpnum}{\cftparfillskip}
+
+\titleformat{\section}
+    [hang]
+    {\sffamily\Large}
+    {\thesection}
+    {1ex}
+    {\vspace{0ex}}
+
+\titleformat{\subsection}
+    [hang]
+    {\sffamily\Large}
+    {\thesubsection}
+    {1ex}
+    {\vspace{0ex}}
+
+\titleformat{\subsubsection}
+    [hang]
+    {\sffamily\Large}
+    {}
+    {0cm}
+    {\vspace{0ex}}
+
+\fancypagestyle{main}{
+    \fancyhf{}
+    \fancyhead[LO,RE]{\thepage}
+    \fancyhead[RO,LE]{\leftmark}
+
+    \pagenumbering{arabic}
+
+%    \onehalfspacing
+    \doublespacing
+}
+
+\pagestyle{main}
+
+\fancypagestyle{bib}{
+    \singlespacing
+}
+ 
+\renewcommand*{\bibfont}{\small}
+\defbibheading{bibliography}[\bibname]{\section*{#1}\markboth{#1}{#1}}
