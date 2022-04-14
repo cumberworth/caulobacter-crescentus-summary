@@ -1,7 +1,7 @@
 \geometry{verbose,a4paper,tmargin=3.0cm,bmargin=3.0cm,hmargin={3.5cm,3.5cm},headheight=14.5pt}
 \setmainfont{TeX Gyre Pagella}
 \setsansfont{TeX Gyre Adventor}
-%\setsansfont{Futura LT}
+\setsansfont{Futura LT}
 \setmathfont{TeX Gyre Pagella Math}
 
 \renewcommand{\topfraction}{0.9}
@@ -13,12 +13,6 @@
 \setcounter{totalnumber}{2}
 
 \tocloftpagestyle{plain}
-%\renewcommand{\cftdotsep}{\cftnodots}
-%\renewcommand{\cftpnumalign}{r}
-%\renewcommand{\cftchapfont}{}
-%\renewcommand{\cftchappagefont}{}
-%\renewcommand{\cftsecleader}{}
-%\renewcommand{\cftsecafterpnum}{\cftparfillskip}
 
 \titleformat{\section}
     [hang]
@@ -43,12 +37,9 @@
 
 \fancypagestyle{main}{
     \fancyhf{}
-    \fancyhead[LO,RE]{\thepage}
-    \fancyhead[RO,LE]{\leftmark}
-
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyfoot[C]{\thepage}
     \pagenumbering{arabic}
-
-%    \onehalfspacing
     \doublespacing
 }
 
