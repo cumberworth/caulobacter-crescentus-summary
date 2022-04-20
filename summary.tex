@@ -64,7 +64,7 @@ Perhaps the two most fundamental regulators then are DnaA and CtrA.
 The origin of replication (often referred to as the Cori, for \textit{Caulobacter} ori) has multiple binding sites for DnaA and CtrA, with some overlap~\cite{frandi2019}.
 As in other classes of bacteria, DnaA binds to the Cori to initiate DNA replication.
 However, if CtrA is bound to the Cori it blocks DnaA binding and thus the initiation of replication.
-The spatial and temporal control for CtrA is key to \textit{C. crescentus}'s assymetric cell cycle in which swarmer cells are unable to replicated their DNA.
+The spatial and temporal control for CtrA is key to \textit{C. crescentus}'s assymetric cell cycle in which swarmer cells are unable to replicate their DNA.
 The basic roles of DnaA and CtraA and how they functionally interact are perhaps best illustrated by the work of \textcite{jonas2011} in \cref{fig:ctra-dnaa}.
 When both are present, DNA replication is initiated once per cell cycle, immediately following division in the stalked cell.
 When CtrA is knocked out, the cell never divides, but replication is initiated with the same frequency.
@@ -86,12 +86,12 @@ DnaA levels were found to vary by only a factor of two over the cell cycle~\cite
 Aside from being regulated transcriptionally, CtrA activity is regulated post-translationally by phosphorylation and proteolysis (\cref{fig:ctra-regulation}).
 When CtrA is phosphorylated it is active and stabilized to degradation~\cite{frandi2019}.
 The key protein which controls the activity of CtrA is CckA.
-CckA acts as a kinase of ChpT when bound to cyclic diguanylate (c-di-GMP), and a phosphatase otherwise.
+CckA acts as a phosphatase of ChpT when bound to cyclic diguanylate (c-di-GMP), and a kinase otherwise.
 ChpT transfers the phosphate group between itself and either CtrA or another protein, CpdR.
 CpdR, when not phosphorylated, binds to RcdA, PopA, and ClpX, which leads to degradation of CtrA.
 c-di-GMP levels increase during the G1 to S phase transition~\cite{hallez2017}, thus leading to a reduction in CtrA activity, and afterwards decrease.
 The c-di-GMP levels themselves are controlled by PleD and PdeA.
-The presence of PdeA seems to keep ci-di-GMP levels lows, and is itself degraded by CpdR and upregulated by CtrA.
+The presence of PdeA seems to keep ci-di-GMP levels low, and is itself degraded by CpdR and upregulated by CtrA.
 PleD is a c-di-GMP synthase whose activity is controlled post-translationally by its phosphorylation state, which will be discussed shortly.
 
 \begin{figure}
@@ -105,7 +105,7 @@ PleD is a c-di-GMP synthase whose activity is controlled post-translationally by
 \end{figure}
 
 It is known that DnaA levels fluctuate over the cell cycle, but the factors that control the transcriptional and translational regulation are still unknown.
-There is some evidence that small non-coding RNAs (sncRNAs) may be involved in cell cycle and environment response regulation of DnaA translation~\cite{felletti2019}.
+There is some evidence that small non-coding RNAs (sncRNAs) may be involved in cell cycle and environmental response regulation of DnaA translation~\cite{felletti2019}.
 However, regulation of the concentration of DnaA does not appear to be necessary for its role in regulating DNA replication initiation~\cite{jonas2011}.
 Instead, as in other classes of bacteria, DnaA binds ATP and has ATPase activity, and only DnaA-ATP is able to initiate DNA replication (\cref{fig:dnaa-regulation}).
 The well characterized RIDA (regulatory inactivation of DnaA) mechanism ensures that DNA replication does not occur multiple times after DNA-ATP levels are high enough.
@@ -133,11 +133,11 @@ The divisome proteins are relatively susceptible to degradation by proteases, wh
 
 Regulation of the cell cycle is also linked to nutrient conditions and cell metabolism.
 In nutrient poor conditions, guanosine tetra- or penta-phosphate ((p)ppGpp) is produced, which increases the CtrA activity and decreases DnaA activity and leads to the cessation of chromosome replication~\cite{frandi2019}.
-It does this by inhibiting CckA phophatase through a pathway involving the proteins MopJ and DivL, which increases the stability of CtrA by allowing it to remain phosphorylated (\cref{fig:ctra-regulation}), and by inhibiting DnaA translation (in a manner not fully understood), leading to the clearance of DnaA by proteolysis (\cref{fig:dnaa-regulation}).
+It does this by inhibiting CckA phosphatase through a pathway involving the proteins MopJ and DivL, which increases the stability of CtrA by allowing it to remain phosphorylated (\cref{fig:ctra-regulation}), and by inhibiting DnaA translation (in a manner not fully understood), leading to the clearance of DnaA by proteolysis (\cref{fig:dnaa-regulation}).
 To be clear, while changes in the total concentration of DnaA are not important in the regulation of DNA initiation under good growth conditions, changing the total concentration of DnaA is used to regulate DNA initiation under poor nutrient conditions, rather than only changing the ratio of DnaA-ATP to Dna-ADP.
 
 Cell division is also sensitive to changes in nutrient conditions, with downregulation of ftsZ and mipZ occurring when nitrogen levels are low~\cite{collier2019} (\cref{fig:cell-division-metabolism}).
-FtsZ polymerization is also inhibited by a protein, GdhZ, that converts glutamate to an intermediate in TCA cycle in the presence of NAD.
+FtsZ polymerization is also inhibited by a protein, GdhZ, that converts glutamate to an intermediate in the TCA cycle in the presence of NAD.
 The inhibition of FtsZ polymerization can only occur when the metabolic substrates are present, which results in it only acting in the G1 and G2 phases, apparently to prevent Z-ring formation in swarmer cells and possibly to assist in triggering constriction of the Z-ring in pre-divisional cells.
 The effect is amplified by the binding of a side-product of the GdhZ catalyzed reaction, NADH, to another protein which then further inhibits Z-ring formation.
 The central metabolism is also connected to peptidoglycan synthesis through the same intermediate in the molecule in the TCA cycle, and since cell wall synthesis is a key part of cell division, it may provide another channel by which nutrient conditions can lead to regulation of the cell cycle~\cite{collier2019}.
@@ -153,7 +153,7 @@ The central metabolism is also connected to peptidoglycan synthesis through the 
 \end{figure}
 
 The organization of proteins at the poles is key to maintaining an asymmetric cell cycle.
-In a swarmer cell, the flagellar pole is the old the pole, which becomes the stalked pole upon transition to a stalked cell.
+In a swarmer cell, the flagellar pole is the old pole, which becomes the stalked pole upon transitioning to a stalked cell.
 The poles have a different set of proteins and activities associated with them.
 There is a complex hierarchy of interactions in which proteins are recruited to the poles that is not fully understood.
 When the cell divides, the new pole is marked by the presence of TipN, which is localized from the previous new pole by the Z-ring during cell division~\cite{lasker2016}.
@@ -163,11 +163,11 @@ The transition is not fully understood but appears to be a Turing pattern formed
 PopZ interacts with the Cori through Par proteins and is involved in anchoring the Cori to the old pole in the swarmer cell.
 
 The spatiotemporal regulation of flagellum and pilli ejection and holdfast and stalk synthesis at the old pole, flagellum and pilli synthesis at the new pole, and differentiation of the swarmer and stalked cell at cell division involves a complex set of interactions.
-These involve two proteins that can act as either phosphatases or kinases, CckA (previously discussed) and PleC, two other kinases, DivJ and DivL, and two response regulator, the above discussed master regulator CtrA and DivK, the above mentioned pole markers, and further pole scaffold proteins, SpmX and PodJ.
-DivK can interact with PleC to convert it to a kinase, and has a higher affinity for PleC in its phophatase mode when it itself is phosphorylated~\cite{subramanian2017}.
+These involve two proteins that can act as either phosphatases or kinases, CckA (previously discussed) and PleC, two other kinases, DivJ and DivL, two response regulators, the above discussed master regulator CtrA and DivK, the above mentioned pole markers, and further pole scaffold proteins, SpmX and PodJ.
+DivK can interact with PleC to convert it to a kinase, and has a higher affinity for PleC in its phosphatase mode when it itself is phosphorylated~\cite{subramanian2017}.
 DivK can also enhance the kinase activity of DivJ~\cite{kirkpatrick2012}.
-DivJ acts to phosphorylate DivK while PleC itself acts on DivK to dephosrylate it.
-Altogether, these feedback loops result in bistability that allows a switch like response in the activity state of PleC to the change in local DivJ concentrations~\cite{subramanian2017}.
+DivJ acts to phosphorylate DivK while PleC itself acts on DivK to dephosphorylate it.
+Altogether, these feedback loops result in bistability that allows a switch-like response in the activity state of PleC to the change in local DivJ concentrations~\cite{subramanian2017}.
 
 \Cref{fig:spatiotemporal-distribution} gives the distributions of these proteins as a function of their position along the cell length and time in the cell cycle as calculated in the model of \textcite{subramanian2015}, while \cref{fig:polar-localization} summarizes this into a cartoon.
 At the transition to a stalked cell, DivJ localizes to the old pole through a mechanism not yet determined, but which seems to involve a SpmX, which itself interacts with PopZ~\cite{kirkpatrick2012}.
